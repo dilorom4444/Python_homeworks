@@ -1,0 +1,33 @@
+name = input("Enter your name: ")
+year = int(input("Enter your year of birth: "))
+
+age = 2025 - year
+print("Hello", name + ", your age is:", age)
+
+txt = 'LMaasleitbtui'
+
+car1 = txt[0] + txt[1] + txt[5] + txt[7]   # L m b o  → "Lmbo"
+car2 = txt[1] + txt[3] + txt[4] + txt[6]   # M a s e → "Mase"
+
+print("Car names:", car1, car2)
+
+txt = "MsaatmiazD"
+
+car1 = txt[0] + txt[3] + txt[5] + txt[7] + txt[9]   # Mazda
+car2 = txt[1] + txt[2] + txt[4] + txt[6]            # Mits
+
+print("Car names:", car1, car2)
+
+txt = "I'am John. I am from London"
+
+start = txt.find("from") + 5
+area = txt[start:]
+
+print("Residence area:", area)
+
+#5
+text = input("Enter text: ")
+print("Reversed:", text[::-1])
+
+
+
